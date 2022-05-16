@@ -6,7 +6,7 @@ return(
 <div className="Article">
 
     <h3>
-        <strong>German Articles:</strong> der die das
+        German Articles: der die das
     </h3>
     <p>
         In German we have three main articles (gender of nouns):
