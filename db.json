@@ -1,0 +1,1228 @@
+{
+  "posts": [
+    {
+      "word": "young",
+      "phonetic": "/jʌŋ/",
+      "phonetics": [
+        {
+          "text": "/jʌŋ/",
+          "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/young-uk.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=9029011",
+          "license": {
+            "name": "BY 3.0 US",
+            "url": "https://creativecommons.org/licenses/by/3.0/us"
+          }
+        },
+        {
+          "text": "/jʌŋ/",
+          "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/young-us.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1197739",
+          "license": {
+            "name": "BY-SA 3.0",
+            "url": "https://creativecommons.org/licenses/by-sa/3.0"
+          }
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "noun",
+          "definitions": [
+            {
+              "definition": "People who are young; young people, collectively; youth.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "The young of today are well-educated."
+            },
+            {
+              "definition": "Young or immature offspring (especially of an animal).",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "The lion caught a gnu to feed its young."
+            },
+            {
+              "definition": "(possibly nonstandard) An individual offspring; a single recently born or hatched organism.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "partOfSpeech": "verb",
+          "definitions": [
+            {
+              "definition": "To become or seem to become younger.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To cause to appear younger.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To exhibit younging.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "partOfSpeech": "adjective",
+          "definitions": [
+            {
+              "definition": "In the early part of growth or life; born not long ago.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "a lamb is a young sheep;  these picture books are for young readers"
+            },
+            {
+              "definition": "At an early stage of existence or development; having recently come into existence.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "the age of space travel is still young;   a young business"
+            },
+            {
+              "definition": "(Not) advanced in age; (far towards or) at a specified stage of existence or age.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "How young is your dog?   Her grandmother turned 70 years young last month."
+            },
+            {
+              "definition": "Junior (of two related people with the same name).",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "(of a decade of life) Early.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "Youthful; having the look or qualities of a young person.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "My grandmother is a very active woman and is quite young for her age."
+            },
+            {
+              "definition": "Of or belonging to the early part of life.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "The cynical world soon shattered my young dreams."
+            },
+            {
+              "definition": "Having little experience; inexperienced; unpracticed; ignorant; weak.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [
+            "junior",
+            "youthful",
+            "juvenile",
+            "youthful",
+            "immature",
+            "underdeveloped",
+            "undeveloped",
+            "juvenile"
+          ],
+          "antonyms": [
+            "aged",
+            "elderly",
+            "grown up",
+            "old",
+            "senior",
+            "youthless",
+            "aged",
+            "elderly",
+            "mature",
+            "old",
+            "youthless",
+            "experienced",
+            "mature",
+            "veteran",
+            "elderly",
+            "mature",
+            "senior"
+          ]
+        }
+      ],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "sourceUrls": [
+        "https://en.wiktionary.org/wiki/young"
+      ]
+    },
+    {
+      "word": "boy",
+      "phonetic": "/bɔːə/",
+      "phonetics": [
+        {
+          "text": "/bɔːə/",
+          "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/boy-us.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=839306",
+          "license": {
+            "name": "BY-SA 3.0",
+            "url": "https://creativecommons.org/licenses/by-sa/3.0"
+          }
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "noun",
+          "definitions": [
+            {
+              "definition": "A young male.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Kate is dating a boy named Jim."
+            },
+            {
+              "definition": "(diminutive) A male child: a son of any age.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "(diminutive) A male of any age, particularly one rather younger than the speaker.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "A male of low station, (especially as pejorative) a worthless male, a wretch; a mean and dishonest male, a knave.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "(now rare and usually offensive outside some Commonwealth nations) A male servant, slave, assistant, or employee, particularly:",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "Any non-white male, regardless of age.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "A male animal, especially, in affectionate address, a male dog.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Are you getting a boy cat or a girl cat?"
+            },
+            {
+              "definition": "A former low rank of various armed services; a holder of this rank.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "Heroin.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "(somewhat childish) A male (tree, gene, etc).",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [
+            "chap",
+            "guy",
+            "lad",
+            "mate",
+            "brat",
+            "knave",
+            "squirt",
+            "manservant",
+            "son"
+          ],
+          "antonyms": []
+        },
+        {
+          "partOfSpeech": "verb",
+          "definitions": [
+            {
+              "definition": "To use the word “boy” to refer to someone.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Don't boy me!"
+            },
+            {
+              "definition": "To act as a boy (in allusion to the former practice of boys acting women's parts on the stage).",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "partOfSpeech": "interjection",
+          "definitions": [
+            {
+              "definition": "Exclamation of surprise, pleasure or longing.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Boy, I wish I could go to Canada!"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "sourceUrls": [
+        "https://en.wiktionary.org/wiki/boy"
+      ]
+    },
+    {
+      "word": "agrees",
+      "phonetic": "/əˈɡɹiːz/",
+      "phonetics": [
+        {
+          "text": "/əˈɡɹiːz/",
+          "audio": ""
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "verb",
+          "definitions": [
+            {
+              "definition": "To harmonize in opinion, statement, or action; to be in unison or concord; to be or become united or consistent; to concur.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "all parties agree in the expediency of the law."
+            },
+            {
+              "definition": "To yield assent; to accede;—followed by to.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "to agree to an offer, or to opinion."
+            },
+            {
+              "definition": "To yield assent to; to approve.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To make a stipulation by way of settling differences or determining a price; to exchange promises; to come to terms or to a common resolve; to promise.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To be conformable; to resemble; to coincide; to correspond.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "the picture does not agree with the original; the two scales agree exactly."
+            },
+            {
+              "definition": "(now always with with) To suit or be adapted in its effects; to do well.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "the same food does not agree with every constitution."
+            },
+            {
+              "definition": "(grammar) To correspond to (another word) in a grammatical category, such as gender, number, case, or person.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "In Romanian, the articles, adjectives, pronouns agree in gender, number and case with the noun they refer to."
+            },
+            {
+              "definition": "To consent to a contract or to an element of a contract.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [
+            "coincide",
+            "correspond",
+            "match",
+            "resemble",
+            "bargain",
+            "deal",
+            "engage",
+            "fit",
+            "suit",
+            "concur",
+            "harmonize",
+            "accede",
+            "come around",
+            "give way",
+            "approve",
+            "set"
+          ],
+          "antonyms": [
+            "disagree"
+          ]
+        }
+      ],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "sourceUrls": [
+        "https://en.wiktionary.org/wiki/agree",
+        "https://en.wiktionary.org/wiki/agrees"
+      ]
+    },
+    {
+      "word": "fishing",
+      "phonetic": "/ˈfɪʃɪŋ/",
+      "phonetics": [
+        {
+          "text": "/ˈfɪʃɪŋ/",
+          "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/fishing-us.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1780081",
+          "license": {
+            "name": "BY-SA 3.0",
+            "url": "https://creativecommons.org/licenses/by-sa/3.0"
+          }
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "noun",
+          "definitions": [
+            {
+              "definition": "The act of catching fish.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "We had a good day's fishing at the weekend."
+            },
+            {
+              "definition": "The act of catching other forms of seafood, separately or together with fish.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "Commercial fishing: the business or industry of catching fish and other seafood for sale.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "This is good news for the fishing industry."
+            },
+            {
+              "definition": "A fishery, a place for catching fish.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [
+            "gentle craft",
+            "piscation",
+            "piscatology",
+            "piscicapture",
+            "piscicide",
+            "fish",
+            "fishery",
+            "industry",
+            "seafood",
+            "fishery",
+            "sportfishing"
+          ],
+          "antonyms": []
+        }
+      ],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "sourceUrls": [
+        "https://en.wiktionary.org/wiki/fishing"
+      ]
+    },
+    {
+      "word": "biggest",
+      "phonetic": "/ˈbɪɡəst/",
+      "phonetics": [
+        {
+          "text": "/ˈbɪɡəst/",
+          "audio": ""
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "adjective",
+          "definitions": [
+            {
+              "definition": "Of great size, large.",
+              "synonyms": [
+                "ample",
+                "huge",
+                "jumbo",
+                "large",
+                "massive",
+                "sizeable",
+                "stoor"
+              ],
+              "antonyms": [
+                "little",
+                "miniature",
+                "minuscule",
+                "minute",
+                "small",
+                "tiny"
+              ],
+              "example": "Elephants are big animals, and they eat a lot."
+            },
+            {
+              "definition": "(of an industry or other field, often capitalized) Thought to have undue influence.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Big Tech"
+            },
+            {
+              "definition": "Popular.",
+              "synonyms": [
+                "all the rage",
+                "in demand",
+                "well liked"
+              ],
+              "antonyms": [],
+              "example": "That style is very big right now in Europe, especially among teenagers."
+            },
+            {
+              "definition": "Adult.",
+              "synonyms": [
+                "adult",
+                "fully grown",
+                "grown up"
+              ],
+              "antonyms": [
+                "little",
+                "young"
+              ],
+              "example": "Kids should get help from big people if they want to use the kitchen."
+            },
+            {
+              "definition": "Fat.",
+              "synonyms": [
+                "chubby",
+                "plus-size",
+                "rotund"
+              ],
+              "antonyms": [],
+              "example": "Gosh, she is big!"
+            },
+            {
+              "definition": "Important or significant.",
+              "synonyms": [
+                "essential",
+                "paramount",
+                "weighty"
+              ],
+              "antonyms": [],
+              "example": "What's so big about that? I do it all the time."
+            },
+            {
+              "definition": "(with on) Enthusiastic (about).",
+              "synonyms": [
+                "fanatical",
+                "mad",
+                "worked up"
+              ],
+              "antonyms": [],
+              "example": "I'm not big on the idea, but if you want to go ahead with it, I won't stop you."
+            },
+            {
+              "definition": "Mature, conscientious, principled; generous.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "I tried to be the bigger person and just let it go, but I couldn't help myself."
+            },
+            {
+              "definition": "Well-endowed, possessing large breasts in the case of a woman or a large penis in the case of a man.",
+              "synonyms": [
+                "busty",
+                "macromastic",
+                "stacked"
+              ],
+              "antonyms": [],
+              "example": "Whoa, Nadia has gotten pretty big since she hit puberty."
+            },
+            {
+              "definition": "(sometimes figurative) Large with young; pregnant; swelling; ready to give birth or produce.",
+              "synonyms": [
+                "full",
+                "great",
+                "heavy"
+              ],
+              "antonyms": [],
+              "example": "She was big with child."
+            },
+            {
+              "definition": "Used as an intensifier, especially of negative-valence nouns",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "You are a big liar.  Why are you in such a big hurry?"
+            },
+            {
+              "definition": "(of a city) populous",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "(of somebody's age) old, mature. Used to imply that somebody is too old for something, or acting immaturely.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [
+            "adult",
+            "fully grown",
+            "grown up",
+            "all the rage",
+            "in demand",
+            "well liked",
+            "ample",
+            "huge",
+            "jumbo",
+            "large",
+            "massive",
+            "sizeable",
+            "stoor",
+            "busty",
+            "macromastic",
+            "stacked",
+            "chubby",
+            "plus-size",
+            "rotund",
+            "essential",
+            "paramount",
+            "weighty",
+            "fanatical",
+            "mad",
+            "worked up",
+            "full",
+            "great",
+            "heavy"
+          ],
+          "antonyms": [
+            "little",
+            "miniature",
+            "minuscule",
+            "minute",
+            "small",
+            "tiny",
+            "little",
+            "young"
+          ]
+        }
+      ],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "sourceUrls": [
+        "https://en.wiktionary.org/wiki/big",
+        "https://en.wiktionary.org/wiki/biggest"
+      ]
+    },
+    {
+      "word": "kill",
+      "phonetic": "/kɪl/",
+      "phonetics": [
+        {
+          "text": "/kɪl/",
+          "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/kill-us.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=268482"
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "noun",
+          "definitions": [
+            {
+              "definition": "The act of killing.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "The assassin liked to make a clean kill, and thus favored small arms over explosives."
+            },
+            {
+              "definition": "Specifically, the death blow.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "The hunter delivered the kill with a pistol shot to the head."
+            },
+            {
+              "definition": "The result of killing; that which has been killed.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "The fox dragged its kill back to its den."
+            },
+            {
+              "definition": "The grounding of the ball on the opponent's court, winning the rally.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "partOfSpeech": "verb",
+          "definitions": [
+            {
+              "definition": "To put to death; to extinguish the life of.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Smoking kills more people each year than alcohol and drugs combined."
+            },
+            {
+              "definition": "To render inoperative.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "He killed the engine and turned off the headlights, but remained in the car, waiting."
+            },
+            {
+              "definition": "To stop, cease or render void; to terminate.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "My computer wouldn't respond until I killed some of the running processes."
+            },
+            {
+              "definition": "To amaze, exceed, stun or otherwise incapacitate.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "That joke always kills me."
+            },
+            {
+              "definition": "To cause great pain, discomfort or distress to.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "These tight shoes are killing my feet."
+            },
+            {
+              "definition": "To produce feelings of dissatisfaction or revulsion in.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "It kills me to learn how many poor people are practically starving in this country while rich moguls spend such outrageous amounts on useless luxuries."
+            },
+            {
+              "definition": "To use up or to waste.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "He told the bartender, pointing at the bottle of scotch he planned to consume, \"Leave it, I'm going to kill the bottle.\""
+            },
+            {
+              "definition": "To exert an overwhelming effect on.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Between the two of us, we killed the rest of the case of beer."
+            },
+            {
+              "definition": "To overpower, overwhelm or defeat.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "The team had absolutely killed their traditional rivals, and the local sports bars were raucous with celebrations."
+            },
+            {
+              "definition": "To force a company out of business.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To produce intense pain.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "You don't ever want to get rabies. The doctor will have to give you multiple shots and they really kill."
+            },
+            {
+              "definition": "To punish severely.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "My parents are going to kill me!"
+            },
+            {
+              "definition": "To strike (a ball, etc.) with such force and placement as to make a shot that is impossible to defend against, usually winning a point.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To cause (a ball, etc.) to be out of play, resulting in a stoppage of gameplay.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To succeed with an audience, especially in comedy.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To cause to assume the value zero.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "(IRC) To disconnect (a user) involuntarily from the network.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To deadmelt.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [
+            "annihilate",
+            "assassinate",
+            "bump off",
+            "dispatch",
+            "ice",
+            "knock off",
+            "liquidate",
+            "murder",
+            "rub out",
+            "slaughter",
+            "slay",
+            "top",
+            "whack",
+            "break",
+            "deactivate",
+            "disable",
+            "turn off",
+            "fritter away",
+            "while away"
+          ],
+          "antonyms": []
+        }
+      ],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "sourceUrls": [
+        "https://en.wiktionary.org/wiki/kill"
+      ]
+    },
+    {
+      "word": "partner",
+      "phonetic": "/ˈpɐːtnə/",
+      "phonetics": [
+        {
+          "text": "/ˈpɐːtnə/",
+          "audio": ""
+        },
+        {
+          "text": "/ˈpɑɹtnɚ/",
+          "audio": ""
+        },
+        {
+          "text": "/ˈpɐːtnɘ/",
+          "audio": ""
+        },
+        {
+          "text": "/ˈpɑːtnə(ɹ)/",
+          "audio": ""
+        },
+        {
+          "text": "/ˈpɑɹtnɚ/",
+          "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/partner-us.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=2707564",
+          "license": {
+            "name": "BY-SA 3.0",
+            "url": "https://creativecommons.org/licenses/by-sa/3.0"
+          }
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "noun",
+          "definitions": [
+            {
+              "definition": "Someone who is associated with another in a common activity or interest.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "One of the pieces of wood comprising the framework which strengthens the deck of a wooden ship around the holes through which the mast and other fittings pass.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "A group financial arrangement in which each member contributes a set amount of money over a set period.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "partOfSpeech": "verb",
+          "definitions": [
+            {
+              "definition": "To join as a partner.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "(often with with) To work or perform as a partner.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "sourceUrls": [
+        "https://en.wiktionary.org/wiki/partner"
+      ]
+    },
+    {
+      "word": "sail",
+      "phonetic": "/seɪl/",
+      "phonetics": [
+        {
+          "text": "/seɪl/",
+          "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/sail-us.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=623350",
+          "license": {
+            "name": "BY-SA 3.0",
+            "url": "https://creativecommons.org/licenses/by-sa/3.0"
+          }
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "noun",
+          "definitions": [
+            {
+              "definition": "A piece of fabric attached to a boat and arranged such that it causes the wind to drive the boat along. The sail may be attached to the boat via a combination of mast, spars and ropes.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "(nautical,uncountable) The concept of a sail or sails, as if a substance.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Take in sail: a storm is coming."
+            },
+            {
+              "definition": "The power harnessed by a sail or sails, or the use of this power for travel or transport.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "A trip in a boat, especially a sailboat.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Let's go for a sail."
+            },
+            {
+              "definition": "(plural \"sail\") A sailing vessel; a vessel of any kind; a craft.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Twenty sail were in sight."
+            },
+            {
+              "definition": "The blade of a windmill.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "A tower-like structure found on the dorsal (topside) surface of submarines.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "The floating organ of siphonophores, such as the Portuguese man-of-war.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "A sailfish.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "We caught three sails today."
+            },
+            {
+              "definition": "An outward projection of the spine, occurring in certain dinosaurs and synapsids",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "Anything resembling a sail, such as a wing.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "sourceUrls": [
+        "https://en.wiktionary.org/wiki/sail"
+      ]
+    },
+    {
+      "word": "returns",
+      "phonetic": "/ɹɪˈtɜːnz/",
+      "phonetics": [
+        {
+          "text": "/ɹɪˈtɜːnz/",
+          "audio": ""
+        },
+        {
+          "text": "/ɹɪˈtɝnz/",
+          "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/returns-us.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=2100518",
+          "license": {
+            "name": "BY-SA 3.0",
+            "url": "https://creativecommons.org/licenses/by-sa/3.0"
+          }
+        }
+      ],
+      "meanings": [
+        {
+          "partOfSpeech": "noun",
+          "definitions": [
+            {
+              "definition": "The act of returning.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "I expect the house to be spotless upon my return."
+            },
+            {
+              "definition": "A return ticket.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Do you want a one-way or a return?"
+            },
+            {
+              "definition": "An item that is returned, e.g. due to a defect, or the act of returning it.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Last year there were 250 returns of this product, an improvement on the 500 returns the year before."
+            },
+            {
+              "definition": "An answer.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "a return to one's question"
+            },
+            {
+              "definition": "An account, or formal report, of an action performed, of a duty discharged, of facts or statistics, etc.; especially, in the plural, a set of tabulated statistics prepared for general information.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "election returns; a return of the amount of goods produced or sold"
+            },
+            {
+              "definition": "Gain or loss from an investment.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "It yielded a return of 5%."
+            },
+            {
+              "definition": ": A report of income submitted to a government for purposes of specifying exact tax payment amounts. A tax return.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Hand in your return by the end of the tax year."
+            },
+            {
+              "definition": "A carriage return character.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "The act of relinquishing control to the calling procedure.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "A return value: the data passed back from a called procedure.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "A return pipe, returning fluid to a boiler or other central plant (compare with flow pipe, which carries liquid away from central plant).",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "The boiler technician had to cut out the heating return to access the safety valve."
+            },
+            {
+              "definition": "A short perpendicular extension of a desk, usually slightly lower.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "Catching a ball after a punt and running it back towards the opposing team.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "A throw from a fielder to the wicket-keeper or to another fielder at the wicket.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "The continuation in a different direction, most often at a right angle, of a building, face of a building, or any member, such as a moulding; applied to the shorter in contradistinction to the longer.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "A facade of sixty feet east and west has a return of twenty feet north and south."
+            }
+          ],
+          "synonyms": [
+            "gaincoming"
+          ],
+          "antonyms": []
+        },
+        {
+          "partOfSpeech": "verb",
+          "definitions": [
+            {
+              "definition": "To come or go back (to a place or person).",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Although the birds fly north for the summer, they return here in winter."
+            },
+            {
+              "definition": "To go back in thought, narration, or argument.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "To return to my story [...]"
+            },
+            {
+              "definition": "To turn back, retreat.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To turn (something) round.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To place or put back something where it had been.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "Please return your hands to your lap."
+            },
+            {
+              "definition": "To give something back to its original holder or owner.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "You should return the library book within one month."
+            },
+            {
+              "definition": "To take back something to a vendor for a refund.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "If the goods don't work, you can return them."
+            },
+            {
+              "definition": "To give in requital or recompense; to requite.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To bat the ball back over the net in response to a serve.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "The player couldn't return the serve because it was so fast."
+            },
+            {
+              "definition": "To play a card as a result of another player's lead.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "If one players plays a trump, the others must return a trump."
+            },
+            {
+              "definition": "To throw a ball back to the wicket-keeper (or a fielder at that position) from somewhere in the field.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To say in reply; to respond.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "to return an answer;  to return thanks;  \"Do it yourself!\" she returned."
+            },
+            {
+              "definition": "To relinquish control to the calling procedure.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "To pass (data) back to the calling procedure.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "This function returns the number of files in the directory."
+            },
+            {
+              "definition": "To retort; to throw back.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "to return the lie"
+            },
+            {
+              "definition": "To report, or bring back and make known.",
+              "synonyms": [],
+              "antonyms": [],
+              "example": "to return the result of an election"
+            },
+            {
+              "definition": "(by extension) To elect according to the official report of the election officers.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [],
+          "antonyms": []
+        },
+        {
+          "partOfSpeech": "noun",
+          "definitions": [
+            {
+              "definition": "Merchandise returned to the retailer, wholesaler or supplier.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "A mild, light-coloured kind of tobacco.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "The rendering back of a writ to the proper officer.",
+              "synonyms": [],
+              "antonyms": []
+            },
+            {
+              "definition": "The return of the soldiers fit for duty.",
+              "synonyms": [],
+              "antonyms": []
+            }
+          ],
+          "synonyms": [],
+          "antonyms": []
+        }
+      ],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "sourceUrls": [
+        "https://en.wiktionary.org/wiki/return",
+        "https://en.wiktionary.org/wiki/returns"
+      ]
+    }
+  ]
+}
