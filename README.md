@@ -5,7 +5,7 @@
     //     headers: {
     //       "x-rapidapi-host": "petapro-translate-v1.p.rapidapi.com",
     //       "x-rapidapi-key":
-    //         "febaec71camshfa4258c349cb43cp19537ejsna6d2a149618d",
+    //         
     //     },
     //   }
     // )
