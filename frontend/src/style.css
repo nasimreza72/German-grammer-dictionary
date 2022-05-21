@@ -66,11 +66,18 @@ h6 {
 }
 /*  ---------- Home part ------------*/
 
-#home {
+#login {
   display: flex;
   justify-content: center;
   padding: 2rem 1rem;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: #000000a4;
 }
+
+
 
 /*  ---------- Navigating part ------------*/
 
