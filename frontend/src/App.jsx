@@ -9,56 +9,64 @@ import Article from "./Article";
 import Translate from "./En-En";
 import TranslateToGerman from "./De-En";
 import Home from "./Home";
-
+import Login from "./Login";
+import { useState } from "react";
 
 export default function App() {
+  const [login, setLogin] = useState(false);
+  console.log(login);
 
-return (
-<div className="App">
+  return (
+    <div className="App">
+      {login ? (
+        <div>
+          <img className="background-logo" src={logo} alt="" />
+          <Navbar className="navigation" expand="md">
+            <Container fluid>
+              <NavLink style={{ opacity: 0.85 }} to="/">
+                <img className="nav-logo" src={logo1} alt="" />
+              </NavLink>
+              <Navbar.Toggle aria-controls="navbarScroll" />
+              <Navbar.Collapse id="navbarScroll">
+                <Nav
+                  className="p-1 d-flex sub-nav "
+                  style={{ maxHeight: "190px" }}
+                  navbarScroll
+                >
+                  <NavLink to="/article" element={<Article />}>
+                    Article
+                  </NavLink>
+                  <NavLink to="/cases" element={<Cases />}>
+                    Cases
+                  </NavLink>
+                  <NavLink to="/Modal-verb">Preposition</NavLink>
+                  <NavLink to="/main/archive">Verb</NavLink>
+                  <NavLink to="/translate" element={<Translate />}>
+                    En-En
+                  </NavLink>
+                  <NavLink to="/toGerman">De-En</NavLink>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
 
-  <img className="background-logo" src={logo} alt="" />
-  <Navbar className="navigation" expand="md">
-    <Container fluid>
-      <NavLink style={{ opacity: 0.85 }} to="/">
-        <img className="nav-logo" src={logo1} alt="" />
-        
-      </NavLink>
-      <Navbar.Toggle aria-controls="navbarScroll" />
-      <Navbar.Collapse id="navbarScroll">
-        <Nav className="p-1 d-flex sub-nav " style={{ maxHeight: "190px" }} navbarScroll>
-          <NavLink to="/article" element={<Article />}>
-          Article
-          </NavLink>
-          <NavLink to="/cases" element={<Cases />}>
-          Cases
-          </NavLink>
-          <NavLink to="/Modal-verb">Preposition</NavLink>
-          <NavLink to="/main/archive">Verb</NavLink>
-          <NavLink to="/translate" element={<Translate />}>
-          En-En
-          </NavLink>
-          <NavLink to="/toGerman">De-En</NavLink>
-        </Nav>
-      </Navbar.Collapse>
-    </Container>
-  </Navbar>
+          <div className="router-path">
+            <Routes>
+              <Route path="/" element={<Home login={login} setLogin={setLogin} />} />
+              <Route path="/article" element={<Article />} />
+              <Route path="/cases" element={<Cases />} />
+              <Route path="/translate" element={<Translate />} />
+              <Route path="toGerman" element={<TranslateToGerman />} />
+            </Routes>
+          </div>
 
-  <div className="router-path">
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/article" element={<Article />} />
-      <Route path="/cases" element={<Cases />} />
-      <Route path="/translate" element={<Translate />} />
-      <Route path="toGerman" element={<TranslateToGerman />} />
-    </Routes>
-  </div>
-
-  <footer>
-    <p>© 2022, Nasim Reza</p>
-  </footer>
-
-  
-
-</div>
-);
+          <footer>
+            <p>© 2022, Nasim Reza</p>
+          </footer>
+        </div>
+      ) : (
+        <Login login={login} setLogin={setLogin} />
+      )}
+    </div>
+  );
 }
