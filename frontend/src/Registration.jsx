@@ -1,12 +1,10 @@
 import { useState } from "react";
-import Registration from "./Registration";
 
-export default function Login(props) {
+export default function Registration() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [showRegistration, setShowRegistration] = useState(false);
 
-  function handleSubmit(e) {
+  function submitRegistration(e) {
     e.preventDefault();
 
     const config = {
@@ -15,20 +13,21 @@ export default function Login(props) {
       body: JSON.stringify({ username, password }),
     };
 
-    fetch("http://localhost:3005/login", config).then((response) => {
+    fetch("http://localhost:3005/register", config)
+    .then((response) => {
       response.json();
       console.log(response.ok);
       if (response.ok) {
-        props.setLogin(true);
+        return;
       } else {
-        alert("Invalid password!!");
+        alert("Username already taken!!");
       }
     });
   }
 
   return (
-    <div id="login">
-      <form onSubmit={handleSubmit}>
+    <div id="registration">
+      <form onSubmit={submitRegistration}>
         <input
           type="text"
           placeholder="username"
@@ -43,12 +42,8 @@ export default function Login(props) {
           onChange={(e) => setPassword(e.target.value)}
         />
         <br />
-        <button type="submit">Login</button>
+        <button type="submit">Register me</button>
       </form>
-      <div>
-        <button onClick={() => setShowRegistration(true)}>Registration</button>
-        {showRegistration && <Registration />}
-      </div>
     </div>
   );
 }
