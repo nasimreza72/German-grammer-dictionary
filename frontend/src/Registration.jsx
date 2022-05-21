@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 export default function Registration() {
-  const [createUser, setCreateUser] = useState("");
-  const [createPassword, setCreatePassword] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
   function submitRegistration(e) {
     e.preventDefault();
@@ -10,9 +10,7 @@ export default function Registration() {
     const config = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      // body: JSON.stringify({ createUser, createPassword }),
       body: JSON.stringify({ username, password }),
-
     };
 
     fetch("http://localhost:3005/register", config)
@@ -20,7 +18,7 @@ export default function Registration() {
       response.json();
       console.log(response.ok);
       if (response.ok) {
-        props.setLogin(true);
+        return;
       } else {
         alert("Username already taken!!");
       }
@@ -33,15 +31,15 @@ export default function Registration() {
         <input
           type="text"
           placeholder="username"
-          value={createUser}
-          onChange={(e) => setCreateUser(e.target.value)}
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
         />
         <br />
         <input
           type="password"
           placeholder="password"
-          value={createPassword}
-          onChange={(e) => setCreatePassword(e.target.value)}
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
         />
         <br />
         <button type="submit">Register me</button>
