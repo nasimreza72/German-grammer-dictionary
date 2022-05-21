@@ -1,8 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import Registration from "./Registration";
 
 export default function Login(props) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [showRegistration, setShowRegistration] = useState(false);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -44,7 +46,8 @@ export default function Login(props) {
         <button type="submit">Login</button>
       </form>
       <div>
-        <button onClick={}>Registration</button>
+        <button onClick={() => setShowRegistration(true)}>Registration</button>
+        {showRegistration && <Registration />}
       </div>
     </div>
   );
