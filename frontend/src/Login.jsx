@@ -15,15 +15,18 @@ export default function Login(props) {
       body: JSON.stringify({ username, password }),
     };
 
-    fetch("http://localhost:3005/login", config).then((response) => {
-      response.json();
-      console.log(response.ok);
-      if (response.ok) {
-        props.setLogin(true);
-      } else {
-        alert("Invalid password!!");
-      }
-    });
+    fetch("http://localhost:3005/login", config)
+      .then((result) => {
+        console.log(result.ok);
+        if (result.ok) {
+          console.log(result);
+          props.setLogin(true);
+        } else {
+          alert("Invalid password!!");
+        }
+      })
+      .then((response) => console.log("res--->",response))
+
   }
 
   return (

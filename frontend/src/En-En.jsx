@@ -1,13 +1,13 @@
 import { useEffect, useState, useRef } from "react";
-import { Button } from "@mui/material";
+import { Button, Hidden } from "@mui/material";
 
 export default function Translate() {
-  const [word, setWord] = useState("");
+  const [word, setWord] = useState("home");
   const [loading, setLoading] = useState(false);
   const [translate, setTranslate] = useState([]);
   const [sentence, setSentence] = useState("");
   const [offset, setOffset] = useState({});
-
+  const [showSuggestion, setShowSuggestion] = useState(true);
 
   useEffect(() => {
     let newWord =
@@ -73,6 +73,11 @@ export default function Translate() {
             <span
               className="individualWord"
               onClick={(e) => {
+                if (!showSuggestion) {
+                  setShowSuggestion(true);
+                } else {
+                  setShowSuggestion(false);
+                }
                 setWord(item);
                 setOffset({
                   left: e.target.offsetLeft,
@@ -86,15 +91,19 @@ export default function Translate() {
           ))}
 
           <div
+            onClick={(e) => {
+              if (!showSuggestion) {
+                setShowSuggestion(true);
+              } else {
+                setShowSuggestion(false);
+              }
+            }}
             style={{
+              display: showSuggestion == true ? "none" : "block",
               position: "absolute",
-              zIndex: 1,
               top: `${offset.top + 23}px`,
               left: `${offset.left - 5}px`,
-              background: "white",
-              borderRadius: "5px",
-              boxShadow:
-                "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
+              zIndex: 1,
             }}
           >
             {loading == true &&
@@ -111,9 +120,8 @@ export default function Translate() {
                     boxShadow:
                       "rgba(0, 0, 0, 0.19) 0px 5px 10px, rgba(0, 0, 0, 0.23) 0px 3px 3px",
                   }}
-                > 
+                >
                   {item}
-                
                 </div>
               ))}
           </div>
@@ -124,7 +132,7 @@ export default function Translate() {
 
       {loading == true && (
         <div style={{ position: "sticky" }} className="translated-word">
-          <h3>{translate ? translate.word.toUpperCase() : word}</h3>
+          <h5>{translate ? translate.word.toUpperCase() : word}</h5>
 
           <hr />
 
