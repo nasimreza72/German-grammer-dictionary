@@ -7,6 +7,7 @@ export default function TranslateToGerman() {
   const [translate, setTranslate] = useState([]);
   const [sentence, setSentence] = useState("");
   const [offset, setOffset] = useState({});
+  const [showSuggestion, setShowSuggestion] = useState(true);
 
   useEffect(() => {
     let newWord =
@@ -69,6 +70,11 @@ export default function TranslateToGerman() {
             <span
               className="individualWord"
               onClick={(e) => {
+                if (!showSuggestion) {
+                  setShowSuggestion(true);
+                } else {
+                  setShowSuggestion(false);
+                }
                 setWord(item);
                 setOffset({
                   left: e.target.offsetLeft,
@@ -83,6 +89,7 @@ export default function TranslateToGerman() {
 
           <div
             style={{
+              display: showSuggestion == true ? "none" : "block",
               position: "absolute",
               width: "100px",
               padding: "5px",
@@ -91,10 +98,8 @@ export default function TranslateToGerman() {
               top: `${offset.top + 18}px`,
               left: `${offset.left - 5}px`,
               background: "white",
+              opacity: 0.75,
               borderRadius: "5px",
-              overflow: "scroll",
-              boxShadow:
-                "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
             }}
           >
             {translate.synonyme1}
@@ -106,14 +111,22 @@ export default function TranslateToGerman() {
 
       {loading == true && (
         <div className="translated-word">
-
-        
-          <h3> {translate ? (translate.l2_text ? translate.l2_text.toUpperCase() : "") : ""} </h3>
+          <h5>
+            {" "}
+            {translate
+              ? translate.l2_text
+                ? translate.l2_text.toUpperCase() +
+                  "(" +
+                  translate.l1_text.toLowerCase() +
+                  ")"
+                : ""
+              : ""}{" "}
+          </h5>
           {/* {translate ? (translate.l1_text ? translate.l1_text : "") : ""} */}
 
           <hr />
           <strong>Synonyms: </strong>
-          { translate ? (translate.synonyme1 ? translate.synonyme1 : "") : ""}
+          {translate ? (translate.synonyme1 ? translate.synonyme1 : "") : ""}
           <hr />
           <strong>Wortart: </strong>
           {translate ? (translate.wortart ? translate.wortart : "") : ""}

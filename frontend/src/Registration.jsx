@@ -3,6 +3,8 @@ import { useState } from "react";
 export default function Registration() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [successful, setSuccessful] = useState(false);
+
 
   function submitRegistration(e) {
     e.preventDefault();
@@ -18,7 +20,7 @@ export default function Registration() {
       response.json();
       console.log(response.ok);
       if (response.ok) {
-        return;
+        setSuccessful(true)
       } else {
         alert("Username already taken!!");
       }
@@ -26,7 +28,7 @@ export default function Registration() {
   }
 
   return (
-    <div id="registration">
+    <div id="registration" >
       <form onSubmit={submitRegistration}>
         <input
           type="text"
@@ -44,6 +46,7 @@ export default function Registration() {
         <br />
         <button type="submit">Register me</button>
       </form>
+      {successful && <h3>Registration successful!! <button onClick={()=>setSuccessful(false)}>x</button></h3> }
     </div>
   );
 }
