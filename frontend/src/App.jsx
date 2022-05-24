@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 import Cases from "./Cases";
 import Article from "./Article";
 import Translate from "./En-En";
+import ListedWord from "./ListedWord.jsx";
 import TranslateToGerman from "./De-En";
 import Home from "./Home";
 import Login from "./Login";
@@ -19,11 +20,11 @@ export default function App() {
   return (
     <div className="App">
       {login ? (
-        <div>
+        <div className="navi">
           <img className="background-logo" src={logo} alt="" />
-          <Navbar className="navigation" expand="md">
+          <Navbar className="navigation" expand="md" color="warning">
             <Container fluid>
-              <NavLink style={{ opacity: 0.85 }} to="/">
+              <NavLink to="/">
                 <img className="nav-logo" src={logo1} alt="" />
               </NavLink>
               <Navbar.Toggle aria-controls="navbarScroll" />
@@ -39,8 +40,9 @@ export default function App() {
                   <NavLink to="/cases" element={<Cases />}>
                     Cases
                   </NavLink>
-                  <NavLink to="/Modal-verb">Preposition</NavLink>
-                  <NavLink to="/main/archive">Verb</NavLink>
+                  <NavLink to="/preposition">Preposition</NavLink>
+                  {/* <NavLink to="/main/archive">Verb</NavLink> */}
+                  <NavLink to="/listed-word" element={<ListedWord />} >Listed Words</NavLink>
                   <NavLink to="/translate" element={<Translate />}>
                     En-En
                   </NavLink>
@@ -52,17 +54,17 @@ export default function App() {
 
           <div className="router-path">
             <Routes>
-              <Route path="/" element={<Home login={login} setLogin={setLogin} />} />
+              <Route
+                path="/"
+                element={<Home login={login} setLogin={setLogin} />}
+              />
               <Route path="/article" element={<Article />} />
               <Route path="/cases" element={<Cases />} />
+              <Route path="/listed-word" element={<ListedWord />} />
               <Route path="/translate" element={<Translate />} />
               <Route path="toGerman" element={<TranslateToGerman />} />
             </Routes>
           </div>
-
-          <footer>
-            <p>© 2022, Nasim Reza</p>
-          </footer>
         </div>
       ) : (
         <Login login={login} setLogin={setLogin} />

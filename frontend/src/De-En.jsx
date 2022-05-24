@@ -20,6 +20,16 @@ export default function TranslateToGerman() {
         ? word.slice(0, -1)
         : word;
 
+    // const ßChecker = newWord.replaceAll("ß", "ss") || newWord;
+    // const äChecker = ßChecker.replaceAll("ä", "a") || ßChecker;
+    // const öChecker = äChecker.replaceAll("ö", "o") || äChecker;
+    // const üChecker = öChecker.replaceAll("ü", "u") || öChecker;
+
+   newWord =  newWord.replaceAll("ß", "ss")
+     .replaceAll("ä", "a") 
+     .replaceAll("ö", "o") 
+     .replaceAll("ü", "u") 
+
     fetch(`http://localhost:3005/toGerman/${newWord}`)
       .then((response) => response.json())
       .then((result) => {
@@ -58,7 +68,7 @@ export default function TranslateToGerman() {
         <textarea
           onChange={() => setSentence(inputText.current.value)}
           ref={inputText}
-          placeholder="Write your words here and hover right side text field's word to get more information."
+          placeholder="Schreiben Sie hier Ihre Sätze und klicken Sie auf der rechten Seite auf einzelne Wörter, um sie nachzuschlagen."
           className="textField"
         ></textarea>
 
@@ -106,8 +116,9 @@ export default function TranslateToGerman() {
           </div>
         </div>
       </div>
-
-      <br />
+      <div className="instructionForUser">
+      Schreiben Sie hier Ihre Sätze und klicken Sie auf der rechten Seite auf einzelne Wörter, um sie nachzuschlagen.
+      </div>
 
       {loading == true && (
         <div className="translated-word">
@@ -122,8 +133,7 @@ export default function TranslateToGerman() {
                 : ""
               : ""}{" "}
           </h5>
-          {/* {translate ? (translate.l1_text ? translate.l1_text : "") : ""} */}
-
+      
           <hr />
           <strong>Synonyms: </strong>
           {translate ? (translate.synonyme1 ? translate.synonyme1 : "") : ""}
