@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function ListedWord() {
   const [wordsList, setWordsList] = useState([]);
+  const [germanWordsList, setGermanWordsList] = useState([]);
   const [hideList, setHideList] = useState(true);
 
   function getAllEnglishWords() {
@@ -19,7 +20,7 @@ export default function ListedWord() {
       .then((response) => response.json())
       .then((result) => {
         const finalList = result.map((w) => w.german_word[0].l1_text);
-        // setWordsList(finalList);
+        setGermanWordsList(finalList);
         console.log("German words list ----->", finalList);
       });
   }
@@ -47,7 +48,7 @@ export default function ListedWord() {
           <button onClick={() => setHideList(false)}>hide list</button>
         </div>
         <ol className="wordsList">
-          {wordsList.map((item) => (
+          {germanWordsList.map((item) => (
             <li>
               {item} <button>x</button>
             </li>
