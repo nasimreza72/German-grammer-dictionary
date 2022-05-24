@@ -24,6 +24,7 @@ export default function Login(props) {
         } else {
           alert("Invalid password!!");
         }
+        return result.json()
       })
       .then((response) => console.log("res--->",response))
 
@@ -31,6 +32,7 @@ export default function Login(props) {
 
   return (
     <div id="login">
+      <h1>welcome to the translation page</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

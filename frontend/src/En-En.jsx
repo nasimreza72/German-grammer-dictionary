@@ -10,7 +10,7 @@ export default function Translate() {
   const [showSuggestion, setShowSuggestion] = useState(true);
 
   useEffect(() => {
-    let newWord =
+    const newWord =
       word.includes(",") ||
       word.includes(".") ||
       word.includes("!") ||
@@ -46,8 +46,10 @@ export default function Translate() {
     console.log(inputText.current.value);
   };
 
+
+
   return (
-    <div className="Translate">
+    <div className="TranslateToEnglish">
       <div className="inputField">
         <form onSubmit={submitHandler}>
           <input placeholder="WORD HERE" ref={inputWord} />
@@ -61,7 +63,7 @@ export default function Translate() {
         <textarea
           onChange={() => setSentence(inputText.current.value)}
           ref={inputText}
-          placeholder="Write your words here and hover right side text field's word to get more information."
+          placeholder="Write your sentences here and click on the right side individual words to look them up."
           className="textField"
         ></textarea>
 
@@ -128,10 +130,12 @@ export default function Translate() {
         </div>
       </div>
 
-      <br />
+      <div className="instructionForUser">
+        Click on a word to look it up & click again to make it disappear.
+      </div>
 
       {loading == true && (
-        <div style={{ position: "sticky" }} className="translated-word">
+        <div className="translated-word">
           <h5>{translate ? translate.word.toUpperCase() : word}</h5>
 
           <hr />
