@@ -4,6 +4,7 @@ export default function ListedWord() {
   const [wordsList, setWordsList] = useState([]);
   const [germanWordsList, setGermanWordsList] = useState([]);
   const [hideList, setHideList] = useState(true);
+  const [germanHideList, setGermanHideList] = useState(true);
 
   function getAllEnglishWords() {
     fetch(`http://localhost:3005/toEnglish/`)
@@ -13,6 +14,7 @@ export default function ListedWord() {
         setWordsList(finalList);
         console.log("finalList the list of word ----->", finalList);
       });
+    setHideList(true);
   }
 
   function getAllGermanWords() {
@@ -23,6 +25,7 @@ export default function ListedWord() {
         setGermanWordsList(finalList);
         console.log("German words list ----->", finalList);
       });
+    setGermanHideList(true);
   }
 
   return (
@@ -33,27 +36,31 @@ export default function ListedWord() {
           <button onClick={() => setHideList(false)}>hide list</button>
         </div>
 
-        <ol className="wordsList">
-          {wordsList.map((item) => (
-            <li>
-              {item} <button>x</button>
-            </li>
-          ))}
-        </ol>
+        {hideList && (
+          <ol className="wordsList">
+            {wordsList.map((item) => (
+              <li>
+                {item} <button>x</button>
+              </li>
+            ))}
+          </ol>
+        )}
       </div>
 
       <div className="germanListedWords">
         <div>
           <button onClick={getAllGermanWords}>German words</button>
-          <button onClick={() => setHideList(false)}>hide list</button>
+          <button onClick={() => setGermanHideList(false)}>hide list</button>
         </div>
-        <ol className="wordsList">
-          {germanWordsList.map((item) => (
-            <li>
-              {item} <button>x</button>
-            </li>
-          ))}
-        </ol>
+        {germanHideList && (
+          <ol className="wordsList">
+            {germanWordsList.map((item) => (
+              <li>
+                {item} <button>x</button>
+              </li>
+            ))}
+          </ol>
+        )}
       </div>
     </div>
   );

@@ -30,23 +30,23 @@ export default function Registration() {
   return (
     <div id="registration" >
       <form onSubmit={submitRegistration}>
-        <input
+        <input className="inputUserName"
           type="text"
           placeholder="username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
         <br />
-        <input
+        <input className="inputPassword"
           type="password"
           placeholder="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
         <br />
-        <button type="submit">Register me</button>
+        <button className="registerMe" type="submit">Register me</button>
       </form>
-      {successful && <h3>Registration successful!! <button onClick={()=>setSuccessful(false)}>x</button></h3> }
+      {successful && <p>Registration successful!! <button className="regisNotificationButton" onClick={()=>setSuccessful(false)}>x</button></p> }
     </div>
   );
 }
