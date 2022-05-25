@@ -42,11 +42,11 @@ export default function App() {
                   </NavLink>
                   <NavLink to="/preposition">Preposition</NavLink>
                   {/* <NavLink to="/main/archive">Verb</NavLink> */}
-                  <NavLink to="/listed-word" element={<ListedWord />} >Listed Words</NavLink>
                   <NavLink to="/translate" element={<Translate />}>
                     En-En
                   </NavLink>
                   <NavLink to="/toGerman">De-En</NavLink>
+                  <NavLink to="/listed-word" element={<ListedWord />} >Your Vocabulary</NavLink>
                 </Nav>
               </Navbar.Collapse>
             </Container>
@@ -65,6 +65,8 @@ export default function App() {
               <Route path="toGerman" element={<TranslateToGerman />} />
             </Routes>
           </div>
+        <button id="logout" onClick={() => setLogin(false)}>logout</button>
+
         </div>
       ) : (
         <Login login={login} setLogin={setLogin} />

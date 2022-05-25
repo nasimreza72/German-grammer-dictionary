@@ -63,7 +63,7 @@ export default function Translate() {
         <textarea
           onChange={() => setSentence(inputText.current.value)}
           ref={inputText}
-          placeholder="Write your sentences here and click on the right side individual words to look them up."
+          placeholder="Write your sentences here and click on every word for more possibilities."
           className="textField"
         ></textarea>
 
